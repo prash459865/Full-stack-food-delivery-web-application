@@ -1,0 +1,38 @@
+.Navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+}
+.Navbar .Logo{
+    width: 160px;
+}
+.Navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 29px;
+}
+.my-Orders img{
+    height: 2em;
+    width: 2em;
+}
+
+.navbar-right button{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar-right button:hover{
+  background-color: red;
+  color: white;
+}

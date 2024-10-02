@@ -1,0 +1,42 @@
+.Add{
+
+   margin: 25px;
+    width: 100%;
+    border: 1px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.add-img{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.add-img img{
+    height: 10em;
+    width: 10em;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.add-product-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.added-product-description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.add-price{
+    display: flex;
+    gap: 5px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

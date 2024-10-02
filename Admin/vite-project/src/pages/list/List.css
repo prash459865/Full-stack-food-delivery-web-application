@@ -1,0 +1,33 @@
+.list-box{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-box .headings{
+       padding: 20px;
+       border: 1px solid black;
+       width: 80%;
+       display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    border: 1px solid black;
+    width: 80%;
+    padding-right: 3em;
+}
+.list-table img{
+    height: 8em;
+    width:8em;
+    margin: 1em;
+}
+.list-table .cross{
+    cursor: pointer;
+}

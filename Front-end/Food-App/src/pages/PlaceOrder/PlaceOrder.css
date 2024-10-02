@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeorder-left{
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
+.placeorder-left .title{
+    margin: 4em 0;
+}
+input{
+    height: 2.5em;
+}
+.multi-fields{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+    
+}
+.multi-fields input{
+    width: 17.5em;
+}
+.out-input{
+    width: 100%;
+}
